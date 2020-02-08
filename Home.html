@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+
+        .navbar {
+            overflow: inherit;
+            background-color: burlywood;
+        }
+
+        /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+        .row.content {
+            height: 900px
+        }
+
+
+        /* Set gray background color and 100% height */
+        .sidenav {
+            margin-top: -20px;
+            padding-top: 30px;
+            background-color: azure;
+            height: 100%;
+        }
+
+        .button {
+            padding: 20px 140px;
+            font-size: 26px;
+            text-align: center;
+            cursor: pointer;
+            outline: initial;
+            color: #fff;
+            background-color: darkgoldenrod;
+            border: none;
+            border-radius: 30px;
+            box-shadow: 0 9px #999;
+        }
+
+            .button:hover {
+                background-color: #3e8e41
+            }
+
+            .button:active {
+                background-color: #3e8e41;
+                box-shadow: 0 5px #666;
+                transform: translateY(4px);
+            }
+
+
+        .round-shape {
+            border-radius: 50%;
+            width: 40%;
+            height: 90%
+        }
+
+
+        /*.block {
+            display: block;
+            width: 80%;
+            border: none;
+            background-color: #4CAF50;
+            padding: 14px 28px;
+            font-size: 16px;
+            cursor: pointer;
+            text-align: center;
+        }*/
+        body {
+            background-image: url("image/chirstmas.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-size: 100% 100%;
+        }
+    </style>
+</head>
+<body background="image/chirstmas.jpg">
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+
+                <div class="round-shape"> <img class="round-shape" src="image/giftround.jpeg" /></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <nav class="navbar">
+                    <div class="navbar-header">
+                        <div class="collapse navbar-collapse" id="myNavbar">
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a href="Home.html">Home</a></li>
+                                <li><a href="PlaceOrder.html">PlaceOrder</a></li>
+                                <li><a href="List.html">ViewBuyers</a></li>
+                                <li><a href="Contact.html">Contact</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-9">
+                <div class="container-fluid text-center">
+                    <div class="row content">
+                        <div class="col-sm-4 sidenav">
+                            <p><a href="Home.html">About</a></p>
+                            <p><a href="List.html">ViewBuyers</a></p>
+                            <p><a href="Contact.html">Contact</a></p>
+                            <!--<button type="button" >About</button><br />
+                            <button type="button" >Projects</button><br />
+                            <button type="button" >Contact</button><br />-->
+                        </div>
+
+
+
+                        <div class="col-lg-8 text-left">
+                            <center>
+                                <h1 class="font-weight-bold" style="font-family:'Arial Rounded MT';">ABOUT GIFT CARD</h1>
+                            </center>
+                            <!--<p class="font-weight-bold">Bold text.</p>-->
+                            <p class="lead">Celebrate every occasion with your loved ones in a special way. GiftCard India brings to you amazing email gift cards, gift boxes, greeting cards and other easy gifting ideas for every occasion such as anniversaries, birthdays, weddings, festivals and more</p>
+</div>
+                        <div class="col-sm-8 ">
+                            <center><button class="button" onClick="location.href='PlaceOrder.html'">Place Order</button></center>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+            <!--<h1 style="font-family:verdana;">This is a heading</h1>
+            <p style="font-family:courier;">This is a paragraph.</p>-->
+            <!--<div>
+                <center><button type="button" class="">Place Order</button></center>
+            </div>-->
+        </div>
+
+    </div>
+
+</body>
+</html>
+
